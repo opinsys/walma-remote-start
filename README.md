@@ -1,6 +1,6 @@
 # walma-remote-start
 
-This application can automatically launch the browser in the same room, when you create a new room to Walma by the [walma-ios](https://github.com/opinsys/walma-ios/ "walma-ios") or [walma-android](https://github.com/opinsys/walma-android/ "walma-android")
+This application can automatically launch the browser in the same room, when you create a new room to Walma by the [walma-ios](https://github.com/opinsys/walma-ios/ "walma-ios") or [walma-android](https://github.com/opinsys/walma-android/ "walma-android") (coming soon)
 
 # Installing
 
