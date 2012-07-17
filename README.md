@@ -20,6 +20,12 @@ Run
 
     coffee client.coffee
 
+# Test
+
+You can test the application by sending the image to the walma server.
+
+    curl -F "image=@test.jpg" -F "remotekey=testsecretkey" http://localhost/api/create_multipart
+
 # Copyright
 
 Copyright © 2010 Opinsys Oy
