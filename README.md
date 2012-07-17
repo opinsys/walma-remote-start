@@ -9,6 +9,13 @@ Install Node.js 0.6.x
     git clone git://github.com/opinsys/walma-remote-start.git
     cd walma-remote-start
 
+Set Walma server and remote key (config.json)
+
+  {
+    "walmaServer": "http://localhost",
+    "remoteKey": "testsecretkey"
+  }
+
 Run
 
     coffee client.coffee
