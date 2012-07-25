@@ -14,6 +14,7 @@ Set Walma server and remote key (config.json)
     {
       "walmaServer": "http://localhost",
       "remoteKey": "testsecretkey"
+      "resolution": { "width": 1024, "height": 768 }
     }
 
 Run
