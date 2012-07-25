@@ -9,6 +9,9 @@ socket = require('socket.io-client').connect(config.walmaServer + '/remote-start
 
 socket.on "connect", ->
   socket.emit "join-desktop", { remote_key: config.remoteKey }
+  socket.emit "set resolution",
+    width: config.resolution.width,
+    height: config.resolution.height
 
 socket.on "open-browser", (opts) ->
   console.log "Open browser", opts
