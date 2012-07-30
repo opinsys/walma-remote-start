@@ -3,12 +3,12 @@ config = JSON.parse fs.readFileSync __dirname + "/config.json"
 
 open = require('open');
 
-console.log "walma-remote-start"
+console.log "Walma Desktop Projector"
 
 socket = require('socket.io-client').connect(config.walmaServer + '/remote-start')
 
 socket.on "connect", ->
-  socket.emit "join-desktop", { remote_key: config.remoteKey }
+    socket.emit "join-desktop", { cameraId: config.cameraId }
   socket.emit "set resolution",
     width: config.resolution.width,
     height: config.resolution.height
