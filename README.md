@@ -13,7 +13,7 @@ Set Walma server and remote key (config.json)
 
     {
       "walmaServer": "http://localhost",
-      "remoteKey": "testsecretkey"
+      "cameraId": "testsecretkey"
       "resolution": { "width": 1024, "height": 768 }
     }
 
@@ -25,7 +25,7 @@ Run
 
 You can test the application by sending the image to the walma server.
 
-    curl -F "image=@test.jpg" -F "remotekey=testsecretkey" http://localhost/api/create_multipart
+    curl -F "image=@test.jpg" -F "cameraId=testsecretkey" http://localhost/api/create_multipart
 
 # Copyright
 
